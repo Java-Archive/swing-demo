@@ -26,14 +26,11 @@ public class Main {
 
   private static void createAndShowGUI() {
 
-    JFrame frame = new JFrame("HelloWorldSwing");
+    JFrame frame = new JFrame("HelloWorld Swing");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-
-    //Add the ubiquitous "Hello World" label.
-//        JLabel label = new JLabel("Hello World");
     frame.getContentPane().setLayout(new BorderLayout());
     frame.getContentPane().add(new LeftMenu() , BorderLayout.WEST);
+
     mainSpace = new JPanel();
     mainSpace.setBackground(new Color(154 , 154 , 254));
     mainSpace.setLayout(new BorderLayout());
@@ -42,6 +39,7 @@ public class Main {
 
     //Display the window.
     frame.pack();
+    frame.setBounds(new java.awt.Rectangle(100,100,550,160));
     frame.setVisible(true);
   }
 

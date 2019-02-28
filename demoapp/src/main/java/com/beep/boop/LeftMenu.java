@@ -35,12 +35,19 @@ public class LeftMenu extends JPanel {
       }
     });
     btn_my.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent e) {
-        Main.mainSpace.removeAll();
-        Main.mainSpace.add(new MyView() , BorderLayout.CENTER);
-        Main.mainSpace.repaint();
-      }
-    });
+        public void actionPerformed(ActionEvent e) {
+          Main.mainSpace.removeAll();
+          Main.mainSpace.add(new MyView() , BorderLayout.CENTER);
+          Main.mainSpace.repaint();
+        }
+      });
+    btn_name.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent e) {
+          Main.mainSpace.removeAll();
+          Main.mainSpace.add(new NameView() , BorderLayout.CENTER);
+          Main.mainSpace.repaint();
+        }
+      });
 
   }
 }
