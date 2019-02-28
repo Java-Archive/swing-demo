@@ -14,4 +14,6 @@ public abstract class GenericView extends JPanel {
 	public void setController(GenericController gc) {
 		this.gc = gc;
 	}
+	
+	public abstract void refresh();
 }

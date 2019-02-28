@@ -39,7 +39,7 @@ public class Main {
 
     //Display the window.
     frame.pack();
-    frame.setBounds(new java.awt.Rectangle(100,100,550,160));
+    frame.setBounds(new java.awt.Rectangle(100,100,570,200));
     frame.setVisible(true);
   }
 

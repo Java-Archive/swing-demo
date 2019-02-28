@@ -48,6 +48,18 @@ public class LeftMenu extends JPanel {
           Main.mainSpace.repaint();
         }
       });
+    btn_is.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent e) {
+          Main.mainSpace.removeAll();
+          Main.mainSpace.repaint();
+        }
+      });
+    btn_svenorben.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent e) {
+          Main.mainSpace.removeAll();
+          Main.mainSpace.repaint();
+        }
+      });
 
   }
 }

@@ -1,6 +1,6 @@
 package com.beep.boop;
 
-public class GenericModel {
+public abstract class GenericModel {
 
 	protected GenericView gv;
 	public GenericModel(GenericView gv) {
